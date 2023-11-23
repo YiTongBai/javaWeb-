@@ -1,0 +1,10 @@
+-- 创建数据库 user_db
+CREATE DATABASE user_db;
+
+-- 创建 user 表
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100)
+);
+
